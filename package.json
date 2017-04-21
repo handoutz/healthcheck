@@ -1,0 +1,25 @@
+{
+  "name": "healthcheck",
+  "version": "0.0.1",
+  "description": "health check for http endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --endpoint http(s)"
+  },
+  "keywords": [
+    "health",
+    "check"
+  ],
+  "author": "Vince Matonis",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "async": "^2.3.0",
+    "colors": "^1.1.2",
+    "config": "^1.25.1",
+    "node-config": "0.0.2",
+    "pretty-error": "^2.1.0",
+    "request": "^2.81.0",
+    "winston": "^2.3.1"
+  }
+}
