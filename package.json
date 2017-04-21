@@ -4,7 +4,7 @@
   "description": "health check for http endpoints",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js --endpoint http(s)"
+    "test": "node index.js -b"
   },
   "keywords": [
     "health",

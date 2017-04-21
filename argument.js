@@ -6,7 +6,7 @@ module.exports = function() {
             description: 'Checks server alive'
         });
     let mode = 'p'; //single ping
-    parser.addArgument(['-p', '--ping'],{action:'storeTrue'});
+    parser.addArgument(['-p', '--ping']);
     parser.addArgument(['-b', '--batch'],{action:'storeTrue'});
     //parser.addArgument('url', {required:false
 
